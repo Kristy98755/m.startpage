@@ -131,6 +131,7 @@ iframe {
     border-radius: 10px;
 }
 
+
 .burger::before {
     top: 0;
     box-shadow: 0 22px 0 #000;
@@ -168,7 +169,6 @@ iframe {
     background: #d0d048;
     text-decoration: none;
     z-index: 8;
-    display: grid;
 }
 
 .hidden-items.active {
