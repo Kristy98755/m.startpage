@@ -169,11 +169,15 @@ iframe {
     background: #d0d048;
     text-decoration: none;
     z-index: 8;
+    opacity: 0;
+	max-height: 0;
 }
 
 .hidden-items.active {
     visibility: visible;
     transform: translateX(0);
+	opacity: 1;
+	max-height: calc(100vh-(3vw + 2vh + 1.2vmin)-3px);
 }
 
 
